@@ -13,16 +13,16 @@ Steps to commit in this repository:
     Make changes 
     </li>
     <li>
-    <git status> : It should have some untracked files. 
+    <code>git status</code> : It should have some untracked files. 
     </li>
     <li>
-    <git add .> : Add the files to track/stage. 
+    <code>git add .</code> : Add the files to track/stage. 
     </li>
     <li>
-    <git commit -m "message"> : commit the files. 
+    <code>git commit -m </code> : commit the files. 
     </li>
     <li>
-    <git push origin username-changes> : push to remote. 
+    <code>git push origin username-changes</code> : push to remote. 
     </li>
     <li>
     Create a pull request from your branch to master branch.  
