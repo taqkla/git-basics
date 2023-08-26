@@ -1,4 +1,4 @@
-<h1> This is the Respository to learn Git and Github.</h1>
+<h1> This is the respository to learn Git and Github.</h1>
 
 Steps to commit in this repository: 
 <br>
