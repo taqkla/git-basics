@@ -29,5 +29,5 @@
         Create a pull request from your branch to master branch.  
         </li>
     </ul>
-
+    <br>
 <li>Added code for coffee shop website using HTML and CSS.</li>
