@@ -231,6 +231,11 @@ nav {
     border-radius: 4px;
 }
 
+.contact-form input:hover,
+.contact-form textarea:hover {
+    background: lightgray;
+}
+
 .contact-form button {
     padding: 10px 20px;
     background-color: #6F4E37;
