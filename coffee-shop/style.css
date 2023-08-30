@@ -70,7 +70,7 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: #ffbd39;
-    color: #000;
+    color: #f6efef;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
@@ -241,3 +241,4 @@
     padding: 20px;
     text-align: center;
   }
+
