@@ -6,15 +6,19 @@
 body{
     font-family: Karla, sans-serif;
 }
+.center-align{
+    text-align: center;
+    background-color: #ffffff;
+}
 #background{
     position: fixed;
     z-index: -1;
     width: 100vw;
 
 }
-#wrapper{
+.wrapper{
     background-color: #C4BAB7;
-    padding-bottom: 100px;
+    width: 100vw;
 }
 #out_div{
     width: 100%;
@@ -63,10 +67,11 @@ body{
   position: absolute;
     color: white;
 }
-.welcome_info h1{
+.large-font{
     font-size: 40px;
     padding: 30px 0;
     font-weight: 300;
+    color: #ffffff;
 }
 .welcome_info h4{
     font-size: 14px;
@@ -192,7 +197,12 @@ about-coffee-readmore bottom{
     height: 300px;
     width: 100vw;
     padding: 100px 0;
+    text-align: left;
     background-color: none;
+    justify-items: left;
+    align-items: left;
+    justify-content: left;
+
 }
 #about-us-section{
     height: 100%;
@@ -236,4 +246,38 @@ about-coffee-readmore bottom{
 }
 .about-us-article p{
     padding-bottom: 2%;
+}
+.subcribe-form-wrapper{
+    padding-bottom: 50px;
+    margin: auto;
+    width: 80%;
+    background-color: #29292e;
+}
+.subcribe-form{
+    margin-left: 70px;
+}
+.subcribe-form input{
+    padding: 10px 8px;
+}
+.subcribe-form input[type=text]{
+    width: 30%;
+    padding: 10px 20px;
+}
+.subcribe-form input[type=text]:hover{
+    border-color: #91827d;
+}
+.subcribe-form input[type=submit]{
+    width: 10%;
+}
+.subcribe-form input[type=submit]:hover{
+    background-color: green;
+}
+
+.subcribe-form-title{
+    color: #A5A5AC;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin:  0px;
+    padding-top: 30px;
 }
