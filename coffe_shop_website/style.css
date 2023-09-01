@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Karla, sans-serif;
+}
+#background{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+
+}
+#wrapper{
+    background-color: #C4BAB7;
+    padding-bottom: 100px;
+}
+#out_div{
+    width: 100%;
+    text-align: center;
+}
+#header{
+    height: 80px;
+    width: 100%vw;
+    padding-top: 15px;
+}
+#header_nav{
+    display: flex;
+
+}
+#nav_items{
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 25%;
+}
+#nav_items li{
+    align-items: center;
+    padding: 15px 20px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+#welcome_section{
+    width: 1440;
+    height: 500px;
+    display: inline-block;
+}
+.welcome_image_sec{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #91827d;
+    text-align: center;
+}
+.welcome_info{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  position: absolute;
+    color: white;
+}
+.welcome_info h1{
+    font-size: 40px;
+    padding: 30px 0;
+    font-weight: 300;
+}
+.welcome_info h4{
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.welcome_info button{
+    height: 50px;
+    width: 250px;
+    font-size: 14px;
+    background-color: white;
+    border-style: none;
+    opacity: 50%;
+}
+.welcome_info p{
+    font-size: medium;
+    padding: 20px;
+
+}
+
+#welcome_image{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+}
+.about-coffee{
+    width: 800px;
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 20%;
+}
+.about-coffee-title{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.about-coffee-details{
+padding-bottom: 30px;
+}
+.about-coffee-readmore{
+    width: 80px;
+    text-decoration: none;
+    border-bottom: 2px solid #90817D;
+    padding-bottom: 3px;
+    color: #A35F4B;
+}
+about-coffee-readmore bottom{
+   padding-top:20px;
+}
+#product-listing{
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: gray; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    justify-content: center;
+}
+.product-session{
+    width: 100%;
+    height: 1400px;
+    background-color: aquamarine;
+    margin-left: 25%;
+}
+.product-list{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+    
+}
+.product-list li{
+    list-style: none;
+}
+.product-item{
+    height: 300px;
+    width: 300px;
+    font-weight: 60px;
+    /* background-color: Green; */
+    margin: 40px 50px 10px 20px;
+    position: relative;
+}
+.product-item img{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.product-item img:hover{
+    display: block;
+}
+.order-button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size:16px;
+    /* display: none; */
+    width: 150px;
+    height: 50px;
+    border-style: none;
+}
+.order-button a{
+    text-decoration: none;
+    color: inherit;
+}
+.order-button:hover{
+    visibility: visible;
+}
+.item-description{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.price-info{
+    display: flex;
+    justify-content: center;
+}
+
+#empty{
+    height: 300px;
+    width: 100vw;
+    padding: 100px 0;
+    background-color: none;
+}
+#about-us-section{
+    height: 100%;
+    width: 100vw;
+    padding: 50px 0 0 0;
+    background-color:#ffffff;
+}
+#about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.about-title{
+    display: flex;
+    align-items:center;
+    margin: 100px 0;
+}
+.about-title h3{
+    padding: 0px;
+    margin: 0px;
+}
+.about-title-line{
+    border-bottom: 1px solid grey;
+    transform: rotate(180deg);
+    width: 100px;
+}
+.begin{
+    /* transform-origin: left; */
+    margin-right: 20px;
+}
+.end{
+    margin-left: 20px;
+}
+.about-us-article{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+}
+.about-us-article p{
+    padding-bottom: 2%;
+}
