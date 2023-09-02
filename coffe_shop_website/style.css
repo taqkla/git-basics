@@ -7,6 +7,7 @@ body{
     font-family: Karla, sans-serif;
 }
 .center-align{
+    margin: auto;
     text-align: center;
     background-color: #ffffff;
 }
@@ -280,4 +281,24 @@ about-coffee-readmore bottom{
     align-items: center;
     margin:  0px;
     padding-top: 30px;
+}
+.contact-us-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+    align-content: space-evenly;
+    
+    
+}
+.z{
+    padding-top: 12px;
+}
+.contact-us-session{
+    background-color: #ffffff;
+   padding-top: 5%;
+    
+}
+div li{
+    list-style: none;
 }
