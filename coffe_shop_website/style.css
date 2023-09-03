@@ -10,6 +10,7 @@ body{
     margin: auto;
     text-align: center;
     background-color: #ffffff;
+    padding-bottom: 50px;
 }
 #background{
     position: fixed;
@@ -18,7 +19,6 @@ body{
 
 }
 .wrapper{
-    background-color: #C4BAB7;
     width: 100vw;
 }
 #out_div{
@@ -26,9 +26,34 @@ body{
     text-align: center;
 }
 #header{
-    height: 80px;
+    height: 60px;
     width: 100%vw;
-    padding-top: 15px;
+    padding-top: 10px;
+    background-color: #634B4B;
+
+}
+.cart{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.cart-logo{
+   width: 18px;
+   margin-right:5px;
+
+}
+.cart p{
+    font-size: 12px;
+}
+.cart-counter{
+    background-color: #2f2e2e;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: small;
 }
 #header_nav{
     display: flex;
@@ -48,6 +73,7 @@ body{
     list-style: none;
     font-size: 13px;
     font-weight: 500;
+    color: #ffffff;
 }
 #welcome_section{
     width: 1440;
@@ -162,6 +188,7 @@ about-coffee-readmore bottom{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    
 }
 .product-item img:hover{
     display: block;
@@ -185,13 +212,54 @@ about-coffee-readmore bottom{
 .order-button:hover{
     visibility: visible;
 }
+.price-info {
+    color: #61626C;
+    padding: 12px 5px;
+    font-weight: 500;
+}
+.price-info>p>span{
+    padding: 0px 3px;
+}
 .item-description{
     margin-top: 10px;
     font-size: 18px;
+    color: #000000;
 }
 .price-info{
     display: flex;
     justify-content: center;
+}
+.game-session{
+    padding-top: 45px;
+    width: 100vw;
+    height: 400px;
+    background-color: white;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.game-wrapper{
+    width: 1000px;
+    height: 300px;
+    background-color: #cfcece;
+    border: 2px Solid #634B4B;
+    border-color: #634B4B;
+    text-align: center;
+    padding-bottom: 40px; 
+    margin: auto; 
+}
+.about-title-game{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.game-info{
+    padding-top: 40px;
+}
+.game-info p{
+    font-size: 75px;
 }
 
 #empty{
@@ -222,6 +290,7 @@ about-coffee-readmore bottom{
     align-items:center;
     margin: 100px 0;
 }
+
 .about-title h3{
     padding: 0px;
     margin: 0px;
@@ -252,7 +321,7 @@ about-coffee-readmore bottom{
     padding-bottom: 50px;
     margin: auto;
     width: 80%;
-    background-color: #29292e;
+    background-color: #634B4B;
 }
 .subcribe-form{
     margin-left: 70px;
@@ -271,11 +340,11 @@ about-coffee-readmore bottom{
     width: 10%;
 }
 .subcribe-form input[type=submit]:hover{
-    background-color: green;
+    background-color: rgb(77, 54, 54);
 }
 
 .subcribe-form-title{
-    color: #A5A5AC;
+    color: white;
     font-size: 14px;
     justify-content: center;
     align-items: center;
@@ -288,6 +357,7 @@ about-coffee-readmore bottom{
     width: 50%;
     margin: auto;
     align-content: space-evenly;
+    padding-bottom: 50px;
     
     
 }
@@ -301,4 +371,21 @@ about-coffee-readmore bottom{
 }
 div li{
     list-style: none;
+}
+.contact-us-links a{
+    list-style: none;
+    text-decoration: none;
+    color:#000000;
+}
+.contact-us-links div{
+    padding-top: 10px;
+}
+.contact-us-links li{
+    padding-top: 10px;
+}
+.contact-us-links address p{
+    padding-top: 10px;
+}
+.contact-us-links address{
+    padding-top: 10px;
 }
