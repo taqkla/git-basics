@@ -129,26 +129,391 @@
 
 // Exception handling
 
-function writeToDb() {
-    throw console.error("Error came!");
-}
+// function writeToDb() {
+//     throw console.error("Error came!");
+// }
 
-function writeToCache() {
-    console.log("write to my cache!");
-}
+// function writeToCache() {
+//     console.log("write to my cache!");
+// }
 
 // writeToDb();
 // writeToCache();
-try {
-    writeToDb();
-} catch (error) {
-    console.log(error);
-} finally {
-    writeToCache();
-}
+// try {
+//     writeToDb();
+// } catch (error) {
+//     console.log(error);
+// } finally {
+//     writeToCache();
+// }
 
 
-function rateChart(name, value = 23) {
-    console.log(name + " " + value);
+// function rateChart(name, value = 23) {
+//     console.log(name + " " + value);
+// }
+// rateChart("samosachat", 32)
+
+// Arrow function
+// let fn = (name, value) => {
+//     console.log(name + " " + value);
+// }
+// fn("Prateek", 32);
+
+
+// var, const and let;
+
+// function example() {
+//     if (true) {
+//         var varVariable = "I'm var!";
+//         let letVariable = "I'm let!";
+//     }
+//     console.log(varVariable); // "I'm var!"
+//     console.log(letVariable); // ReferenceError: letVariable is not defined
+// }
+
+// example();
+
+// const obj = { name: "Prateek" };
+// const proto = { prop: "value" };
+
+// function name(params) {
+//     console.log("My name is " + params);
+// }
+
+// Object.setPrototypeOf(obj, proto); // Set obj's prototype to proto
+
+// console.log(obj.prop); // "value"
+// console.log(name.Prototype);
+
+// console.log(obj.hasOwnProperty("ProtoType"));
+
+// name("Patrick");
+// let a = 23;
+
+// Arrow functions
+// const name = (personName) => {
+//     console.log("The name is " + personName);
+//     // var a = 24;
+//     // let a = 27;
+//     console.log(a);
+// }
+
+
+
+// Function Declaration
+// function name(personName) {
+//     console.log("The name is " + personName);
+//     // var a = 24;
+//     // let a = 27;
+//     console.log(a);
+// }
+
+
+
+// Function invocation
+// name("Patrick");
+// console.log(a);
+
+// const arr = [1, 2, 3, 4, 5];
+
+// arr.forEach(function (arrValue) {
+//     console.log(arrValue);
+// })
+// // Arrow function
+// arr.forEach((arrValue) => console.log(arrValue));
+
+// let cartId = 3;
+// function createOrder(cartId) {
+//     return 1;
+// }
+// // callback hell
+// function updateCart((cartId) => {
+//     // perform update operation on cartId;
+//     console.log(cartId);
+//     const orderId = createOrder(cartId);
+//     processOrder(orderId);
+//     processOrder((orderId) => {
+//         returnOrder(); // API
+//     })
+//     processOrder(orderId);
+// });
+
+
+// function returnOrder() {
+//     console.log("orderId");
+// }
+
+// function processOrder(orderId) {
+//     console.log("the order is processing" + orderId);
+// }
+
+
+// updateCart(3);
+
+// AJAX
+
+
+// let a = 32;
+// a = 35;
+// const b = 31;
+// b = 32;
+
+// {
+//     let a = 23;
+//     console.log(a);
+// }
+
+// console.log(a);
+
+// const arr = [1, 2, 3, 4, 5];
+
+// arr.forEach(function printValue(arrValue) {
+//     console.log(arrValue * 2);
+// })
+
+
+// function printValue(arrValue) {
+//     console.log(arrValue);
+// }
+
+
+// let value = 32;
+
+// function doSomething() {
+//     value = 34;
+// }
+
+// // doSomething();
+
+// doSomething(() => {
+//     value = 34;
+//     updateCart();
+//     asygetOrder();
+// })
+
+
+// const str = "strinxdgdgjks";
+
+// const Student = {
+//     name: "Prateek",
+//     rollNumber: "32"
+// }
+
+// Student.prototype.printStudent = () => {
+//     console.log(name, rollNumber);
+// }
+// console.log(Student.printStudent());
+
+// Student.IsHeadBoy = true;
+
+// console.log(Student);
+
+// function name() {
+//     this.name = "Prateek";
+//     console.log(this.name);
+// }
+// name();
+
+// this.name = "Shashank";
+// console.log(this.name);
+
+
+// function doSomething() {
+//     // anything here
+//     console.log("This is a do something function!");
+// }
+
+// const doSomething = (() => {
+//     console.log("This is a callback function");
+// })
+
+// doSomething();
+
+
+// function performOperation(callback) {
+//     callback();
+//     console.log("This is an actual function");
+// }
+
+
+
+// function callbackFunction() {
+//     // Code to be executed as a callback
+//     for (let i = 0; i < 10; i++)
+//         console.log("This is a callback function!");
+// }
+
+// performOperation(callbackFunction);
+
+
+
+// let company = {
+
+//     name: "A",
+
+//     pay: function () {
+
+//         console.log("Paying");
+
+//     },
+
+// }; //company object
+
+// let worker = {
+
+//     id: 1,
+
+//     work: function () {
+
+//         console.log("Working");
+
+//     },
+
+// }; //worker object
+
+// worker.__proto__ = company; //worker object inherits company object
+
+// console.log(worker);
+
+// worker.pay(); // calling method from company object using worker object.
+
+
+
+// function updateCart(callbackStore) {
+//     // 
+//     return callbackStore(database, value);
+// }
+
+// function callbackStore(database, value) {
+//     const connection = database.connect();
+//     connection.store(value);
+// }
+
+
+// console.log({
+//     name: "Prateek",
+//     rollNumber: 32
+// });
+
+// console.log(JSON.parse(JSON.stringify({
+//     name: "Prateek",
+//     rollNumber: 32
+// })))
+
+
+// Object in real world  - Bird
+
+// function Bird(type, flyCallback) {
+//     this.type = type;
+//     this.flyCallback = flyCallback
+// }
+
+
+// Bird("Hen", () => {
+//     console.log("This hen can not fly high!");
+// })
+
+// Blueprint of some characterstic and behaviour of Bird
+
+
+// Encapsulation
+// class Bird {
+//     constructor(type, color) {
+//         this.type = type;
+//         this.color = color;
+//     }
+//     fly() {
+//         console.log(`This ${this.type} can fly`);
+//     }
+// }
+
+// // Inheritence 
+// // Polymorphism
+// class Ostrich extends Bird {
+//     constructor(type, color) {
+//         super(type, color);
+//     }
+//     fly() {
+//         console.log(`This ${this.type} can't fly`);
+//     }
+
+//     fly(name) {
+//         console.log(`This ${name} can't fly`);
+//     }
+// }
+
+
+
+// // const hen = new Bird("Hen", "Red");
+// const ostrich = new Ostrich("Ostrich", "Red");
+// // hen.fly();
+// ostrich.fly("hen");
+
+// // OOP principles
+
+// // Abstaction
+
+// class Gpay {
+
+
+//     pay(amount, sender, receiver) {
+//         // logic 
+//         deductAmount(amount, sender);
+//         notifySender();
+//         addAmount(amount, receiver);
+//         notifyReciever();
+//     }
+// }
+
+
+// function timout() {
+//     for (var index = 0; index < 10; index++) {
+//         setTimeout(() => {
+//             console.log(index);
+//         }, 1000);
+//     }
+// }
+
+// timout();
+
+// console.log("Print this data");
+
+
+
+// // Amazon - SDE2
+
+
+// setInterval(() => {¸
+//     for (let index = 0; index < 5; index++) {
+//         console.log(index);
+//     }
+// }, 2000);
+
+
+
+// Callback Functions
+
+// setTimeout(() => {
+//     console.log("We will execute after timeout");
+// }, 5000)
+// function name(printClassName) {
+//     printClassName("Javascript : Advanced!");
+// };
+
+// function printClassName(className) {
+//     console.log(`The name of my class is ${className}`);
+// }
+
+// name(printClassName);
+
+
+// Event Listener
+
+function addEventListener() {
+    let count = 0;
+    document.getElementById('clickMe').addEventListener('click', function buttonClick() {
+        console.log(`button got clicked ${++count} times`);
+    })
 }
-rateChart("samosachat", 32)
+
+addEventListener();
