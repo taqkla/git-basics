@@ -50,12 +50,43 @@ setTimeout(function () {
 
 console.log('------------------------------------------');
 
-// Example-5:
-let count = 0;
-document.getElementById('clickMe').addEventListener('click', cb);
+// // Example-5:
+// let count = 0;
+// document.getElementById('clickMe').addEventListener('click', cb);
 
-function cb() {
-    console.log(`button pressed ${++count} times`);
+// function cb() {
+//     console.log(`button pressed ${++count} times`);
+// }
+
+console.log('------------------------------------------');
+
+// Example-6: Callback Hell and Inversion of Control 
+
+// 1: createOrderAPI
+// 2: proceedToPaymentAPI
+// 3: showOrderSummaryAPI
+// 4: updateWalletAPI
+
+function createOrder(orderId, proceedToPayment) {
+    console.log(`order is created with ${orderId}`);
+    proceedToPayment(2, showOrderSummary);
 }
+
+
+let proceedToPayment = function (paymentId, showOrderSummary) {
+    console.log(`payment is done with ${paymentId}`);
+    showOrderSummary(3, updatedWallet);
+}
+
+let showOrderSummary = function (summaryId, updatedWallet) {
+    console.log(`summary is created with ${summaryId}`);
+    updatedWallet();
+}
+
+let updatedWallet = function () {
+    console.log(`wallet is updated`);
+}
+
+createOrder(1, proceedToPayment);
 
 console.log('------------------------------------------');
