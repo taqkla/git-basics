@@ -509,11 +509,22 @@
 
 // Event Listener
 
-function addEventListener() {
-    let count = 0;
-    document.getElementById('clickMe').addEventListener('click', function buttonClick() {
-        console.log(`button got clicked ${++count} times`);
-    })
-}
+// function addEventListener() {
+//     let count = 0;
+//     document.getElementById('clickMe').addEventListener('click', function buttonClick() {
+//         console.log(`button got clicked ${++count} times`);
+//     })
+// }
 
-addEventListener();
+// addEventListener();
+
+// var const let
+
+// 1. hoisting
+// 2. strictness
+
+var a = 10;
+let b = 20;
+
+var a = 23;
+
