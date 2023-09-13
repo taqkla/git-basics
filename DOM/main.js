@@ -4,6 +4,9 @@
 // GetElementById
 // const title = document.getElementById("main-heading");
 // console.log(title);
+// title.innerHTML
+// title.innerText
+// title.innerContent
 
 
 // // GetElementByClassName
@@ -47,10 +50,12 @@
 // const ul = document.querySelector('ul');
 // const li = document.createElement('li');
 // li.textContent = "Don"
-// // li.className = 'list-items';
-// li.classList.add('list-items')
-// console.log(li.classList.contains('list-items'))
+// li.className = 'list-items';
+// // li.classList.add('list-items')
+// // console.log(li.classList.contains('list-items'))
 // ul.append(li);
+
+// li.remove();
 
 
 // listItems = document.getElementsByClassName("list-items");
@@ -77,13 +82,33 @@
 
 // DOM Traversal
 
-let body = document.querySelector('body');
-// console.log("This is the parent element");
-// console.log(body.parentElement);
-// console.log("This is the parent node");
-// console.log(body.parentNode);
+// let body = document.querySelector('body');
+// // console.log("This is the parent element");
+// // console.log(body.parentElement);
+// // console.log("This is the parent node");
+// // console.log(body.parentNode);
 
-body.childNodes.forEach(element => console.log(element))
+// body.childNodes.forEach(element => console.log(element))
 // console.log();
 
 // body.getCh
+
+
+document.getElementById('add').addEventListener('click', () => {
+    const num1 = document.getElementById('num1').value;
+    console.log(num1);
+    const num2 = document.getElementById('num2').value;
+    console.log(num2);
+    document.getElementById('output').value = Number(num1) + Number(num2);
+})
+
+
+document.getElementById('multiply').addEventListener('click', (a, b) => {
+    console.log("A is this", a);
+    console.log("B is this", b);
+    const num1 = document.getElementById('num1').value;
+    console.log(num1);
+    const num2 = document.getElementById('num2').value;
+    console.log(num2);
+    document.getElementById('output').value = Number(num1) * Number(num2);
+})
