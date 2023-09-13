@@ -523,8 +523,12 @@
 // 1. hoisting
 // 2. strictness
 
-var a = 10;
-let b = 20;
+// var a = 10;
+// let b = 20;
 
-var a = 23;
+// var a = 23;
+
+const arr = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+arr.forEach(day => console.log(day));
 
