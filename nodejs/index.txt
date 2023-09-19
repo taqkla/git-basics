@@ -1,0 +1,244 @@
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
+
+
+npm init
+package.lock.json
+package.json
+node_modules
+npm install express
+npm install/npm i
+npm update/npm un
+npm install express --save-dev
+npm install -g nodemon - you can't run dev dependencies directly
+scripts
+npm start
+npm run dev
+npm run test
+npm module version
+    major version : *
+    minor version : ^
+    patch version : ~
+npm outdated
