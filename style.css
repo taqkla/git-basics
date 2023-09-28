@@ -1,0 +1,270 @@
+body{
+    background-image: linear-gradient(to right, rgb(102, 191, 161), rgb(27, 38, 161));
+}
+*{
+    scroll-behavior: smooth;
+
+}
+
+
+
+/* HEADER */
+header{
+    position: fixed;
+}
+.navbar ul{
+    margin-left: 77.5%;
+    width: 15cm;
+    background-color: white;
+    border-radius: 1cm;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 20px;
+    transition: background-color 0.5s ease;
+    transition: color 0.7s ease;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}
+
+.navbar ul:hover{
+    background-color: rgb(1, 95, 109);
+}
+
+
+
+
+
+
+/* ABOUT */
+
+
+
+.name-line{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.name-line h1{
+    font-size: 100px;
+}
+
+.name-line h1 span{
+    color: white;
+}
+
+
+.profile-img img{
+    width: 350px;
+    height: 350px;
+    /* border-top-right-radius: 5cm;
+    border-top-left-radius: 5cm; */
+    border-radius: 1cm;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.about-content{
+    display: flex;
+    align-items: self-start;
+}
+
+.about-bio{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.about-bio h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-bio h1 span{
+    color: white;
+}
+
+.about-bio p{
+    font-size: x-large;
+    padding-right: 50px;
+    color: black;
+}
+
+.icons{
+    margin-top: -30px;
+    margin-left: 210px;
+}
+
+.icons .icon-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* SKILLS */
+
+#skills{
+    margin-top: 150px;
+}
+#skills h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.skillssection{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.skill{
+    border: solid;
+    background-color: black;
+    margin-left: 30px;
+    width: 7cm;
+}
+.skill:hover{
+    animation: skill 1s ease-in-out forwards;
+}
+
+@keyframes skill{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+.skill img{
+    width: 100px;
+    margin-left: 30%;
+    padding-top: 25px;
+}
+.skill p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+/* PROJECTS */
+
+#projects {
+    margin-top: 200px;
+}
+#projects h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.projectsSection{
+    margin-top: 100px;
+    display: flex;
+}
+
+.project{
+    margin-left: 300px;
+}
+
+
+.project img{
+    width: 8cm;
+    height: 6cm;
+    border-radius: 0.5cm;
+}
+
+
+
+
+/* CONTACT */
+
+#contact{
+    margin-top: 200px;
+}
+.contact-content h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.socials{
+    margin-left: 100px;
+}
+.socials h3{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.icons-contact{
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+.icons-contact img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.icon-contact:hover{
+    animation: icon-contact 2s ease-in-out;
+}
+
+@keyframes icon-contact{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.forms{
+    margin-left: 900px;
+    margin-top: -120px;
+}
+
+.forms button{
+    width: 25%;
+    height: 1cm;
+    border-radius: 0.4cm;
+    font-size: larger;
+    border-color: black;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+.forms-input{
+    width: 5cm;
+    height: 1cm;
+    border-radius: 0.5cm;
+}
+
+.copyright h3{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+
