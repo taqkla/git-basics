@@ -11,7 +11,7 @@
         git branch <username_changes> & git checkout <username_changes> | git checkout -b <username_changes>
         </li>
         <li>
-        Make changes 
+        Make changes. 
         </li>
         <li>
         <code>git status</code> : It should have some untracked files. 
